@@ -1,0 +1,24 @@
+.game-area {
+  position: relative;
+  margin: auto;
+  height: 396px;
+  width: 596px;
+  z-index: 0;
+  border: 2px solid black;
+}
+
+.pixel {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: black;
+  z-index: 2;
+}
+
+.missile {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: red;
+  z-index: 1;
+}
